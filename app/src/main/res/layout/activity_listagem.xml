@@ -40,7 +40,7 @@
         android:layout_marginTop="26dp"
         android:backgroundTint="@color/black"
         android:text="@string/btnVoltar"
-        android:textSize="11sp"
+        android:textSize="13sp"
         app:layout_constraintEnd_toStartOf="@+id/tvLista"
         app:layout_constraintHorizontal_bias="0.592"
         app:layout_constraintStart_toStartOf="parent"
