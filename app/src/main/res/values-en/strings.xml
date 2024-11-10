@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TrabalhoN1</string>
+    <string name="tvTitulo">Vehicle Registration</string>
+    <string name="tvLista">Vehicle List</string>
+    <string name="etMarca">Enter the brand:</string>
+    <string name="etModelo">Enter the model:</string>
+    <string name="etAno">Enter the year:</string>
+    <string name="etCor">Enter the color:</string>
+    <string name="btnSalvar">Save</string>
+    <string name="btnListagem">See list</string>
+    <string name="btnVoltar">Return</string>
+    <string name="btnDeletar">Delete</string>
+    <string name="tvMarca">Brand</string>
+    <string name="tvModelo">Model</string>
+    <string name="tvAno">Year</string>
+    <string name="tvCor">Color</string>
+</resources>

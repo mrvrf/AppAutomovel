@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/border_background"
+            android:padding="24dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="8dp">
+
+            <TextView
+                android:id="@+id/tvMarca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tvMarca"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:paddingBottom="8dp"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/tvModelo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tvModelo"
+                android:textSize="24sp"
+                android:paddingBottom="8dp"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/tvAno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tvCor"
+                android:textSize="24sp"
+                android:paddingBottom="8dp"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/tvCor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tvCor"
+                android:textSize="24sp"
+                android:paddingBottom="8dp"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgMarca"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="24dp"
+            android:scaleType="fitXY"/>
+
+        <Button
+            android:id="@+id/btnVoltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnVoltar"
+            android:background="@drawable/button_background"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"/>
+        <Button
+            android:id="@+id/btnDeletar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnDeletar"
+            android:background="@drawable/button_delete_background"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"/>
+    </LinearLayout>
+</ScrollView>

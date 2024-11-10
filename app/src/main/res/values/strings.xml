@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TrabalhoN1</string>
+    <string name="tvTitulo">Cadastro Automovel</string>
+    <string name="tvLista">Lista de Automovéis</string>
+    <string name="etMarca">Digite a marca:</string>
+    <string name="etModelo">Digite o modelo:</string>
+    <string name="etAno">Digite o ano:</string>
+    <string name="etCor">Digite a cor:</string>
+    <string name="btnSalvar">Salvar</string>
+    <string name="btnListagem">Ver lista</string>
+    <string name="btnVoltar">Voltar</string>
+    <string name="btnDeletar">Deletar</string>
+    <string name="tvMarca">Marca</string>
+    <string name="tvModelo">Modelo</string>
+    <string name="tvAno">Ano</string>
+    <string name="tvCor">Cor</string>
+</resources>
