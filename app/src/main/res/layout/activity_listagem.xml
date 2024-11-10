@@ -35,12 +35,12 @@
 
     <Button
         android:id="@+id/btnVoltar"
-        android:layout_width="85dp"
+        android:layout_width="86dp"
         android:layout_height="50dp"
         android:layout_marginTop="26dp"
         android:backgroundTint="@color/black"
         android:text="@string/btnVoltar"
-        android:textSize="13sp"
+        android:textSize="12sp"
         app:layout_constraintEnd_toStartOf="@+id/tvLista"
         app:layout_constraintHorizontal_bias="0.592"
         app:layout_constraintStart_toStartOf="parent"
