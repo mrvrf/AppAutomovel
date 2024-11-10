@@ -32,10 +32,10 @@ class AutomovelA : AppCompatActivity() {
         val imgMarca = findViewById<ImageView>(R.id.imgMarca)
         val btnDeletar = findViewById<Button>(R.id.btnDeletar)
 
-        tvMarca.text = "Marca: $marca"
-        tvModelo.text = "Modelo: $modelo"
-        tvAno.text = "Ano: $ano"
-        tvCor.text = "Cor: $cor"
+        tvMarca.text = getString(R.string.tvMarca) + ": " + marca
+        tvModelo.text = getString(R.string.tvModelo) + ": " + modelo
+        tvAno.text = getString(R.string.tvAno) + ": " + ano
+        tvCor.text = getString(R.string.tvCor) + ": " + cor
 
         val resId = resources.getIdentifier(marca?.lowercase(), "drawable", packageName)
         if (resId != 0) {
@@ -45,10 +45,10 @@ class AutomovelA : AppCompatActivity() {
             Handler(Looper.getMainLooper()).postDelayed({
                 Toast.makeText(this, "Imagem da marca não encontrada!", Toast.LENGTH_SHORT).show()
             }, 3000) // teste
+        }
 
-            btnVoltar.setOnClickListener {
-                finish()
-            }
+        btnVoltar.setOnClickListener {
+            finish()
         }
 
         btnDeletar.setOnClickListener{

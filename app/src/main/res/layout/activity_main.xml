@@ -9,7 +9,7 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="250dp"
+        android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
         android:background="@drawable/background_round"
@@ -17,7 +17,8 @@
         android:text="@string/tvTitulo"
         android:textAlignment="center"
         android:textColor="#FB0505"
-        android:textSize="25sp"
+        android:textSize="28sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -77,10 +78,11 @@
     <Button
         android:id="@+id/btnSalvar"
         android:layout_width="243dp"
-        android:layout_height="50dp"
+        android:layout_height="52dp"
         android:layout_marginTop="50dp"
         android:backgroundTint="#3F7A04"
         android:text="@string/btnSalvar"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etCor" />
@@ -89,7 +91,7 @@
         android:id="@+id/btnListagem"
         android:layout_width="243dp"
         android:layout_height="55dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:backgroundTint="#040404"
         android:text="@string/btnListagem"
         android:textSize="24sp"

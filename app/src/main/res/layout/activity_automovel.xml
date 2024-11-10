@@ -42,7 +42,7 @@
                 android:id="@+id/tvAno"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/tvCor"
+                android:text="@string/tvAno"
                 android:textSize="24sp"
                 android:paddingBottom="8dp"
                 android:gravity="center" />
@@ -64,27 +64,34 @@
             android:layout_marginBottom="24dp"
             android:scaleType="fitXY"/>
 
-        <Button
-            android:id="@+id/btnVoltar"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/btnVoltar"
-            android:background="@drawable/button_background"
-            android:textColor="#FFFFFF"
-            android:padding="12dp"
-            android:textSize="18sp"
-            android:layout_gravity="center"
-            android:layout_marginTop="24dp"/>
-        <Button
-            android:id="@+id/btnDeletar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/btnDeletar"
-            android:background="@drawable/button_delete_background"
-            android:textColor="#FFFFFF"
-            android:padding="12dp"
-            android:textSize="18sp"
-            android:layout_gravity="center"
-            android:layout_margin="8dp"/>
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="24dp">
+
+            <Button
+                android:id="@+id/btnVoltar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnVoltar"
+                android:background="@drawable/button_background"
+                android:textColor="#FFFFFF"
+                android:padding="12dp"
+                android:textSize="18sp"
+                android:layout_marginEnd="8dp"/>
+
+            <Button
+                android:id="@+id/btnDeletar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnDeletar"
+                android:background="@drawable/button_delete_background"
+                android:textColor="#FFFFFF"
+                android:padding="12dp"
+                android:textSize="18sp"
+                android:layout_marginStart="8dp"/>
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>

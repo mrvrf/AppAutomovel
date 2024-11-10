@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.TrabalhoN1" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="buttonStyle">@style/Widget.AppCompat.Button</item>
     </style>
 
-    <style name="Theme.TrabalhoN1" parent="Base.Theme.TrabalhoN1" />
+    <style name="Theme.TrabalhoN1" parent="Base.Theme.TrabalhoN1"/>
 </resources>

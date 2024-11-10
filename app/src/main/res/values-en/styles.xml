@@ -1,2 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <style name="CustomButtonStyle">
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginStart">8dp</item>
+    </style>
+
+    <style name="DeleteButtonStyle">
+        <item name="android:background">@drawable/button_delete_background</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginStart">8dp</item>
+    </style>
+</resources>
